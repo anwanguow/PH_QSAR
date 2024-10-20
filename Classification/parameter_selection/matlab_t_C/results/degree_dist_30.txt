@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6596 82 106 
+293 2991 44 
+177 62 6161 
+Train Accuracy: 95.37%
+Train MCC: 0.93
+Test Confusion Matrix:
+53 0 0 
+0 26 0 
+4 1 45 
+Test Accuracy: 96.12%
+Test MCC: 0.94

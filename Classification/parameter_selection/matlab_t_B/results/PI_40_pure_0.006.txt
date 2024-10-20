@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+5830 858 96 
+915 2390 23 
+180 0 6220 
+Train Accuracy: 87.45%
+Train MCC: 0.80
+Test Confusion Matrix:
+46 7 0 
+0 26 0 
+4 0 46 
+Test Accuracy: 91.47%
+Test MCC: 0.87

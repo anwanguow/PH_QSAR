@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+5957 24 803 
+32 3287 9 
+670 4 5726 
+Train Accuracy: 90.66%
+Train MCC: 0.85
+Test Confusion Matrix:
+51 0 2 
+0 26 0 
+14 1 35 
+Test Accuracy: 86.82%
+Test MCC: 0.81

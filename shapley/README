@@ -1,0 +1,57 @@
+README
+
+The codes for machine learning using three different feature engineerings:
+
+'do_1.m'   H0 homology class
+'do_2.m'   H1 homology class
+'do_3.m'   H2 homology class
+'do_4.m'   H0 and H1 homology classes
+'do_5.m'   H0 and H2 homology classes
+'do_6.m'   H1 and H2 homology classes
+'do_7.m'   H0, H1, and H2 homology classes
+
+
+The code for PCA on the feature matrix
+
+'pca_.m'
+
+
+The code for training using the optimal model
+
+'training.m'
+
+
+The menu for saving the machine leaning results:
+
+'results/'
+
+
+The menu for saving the hyperparameter settings of optimal models:
+
+'models/'
+
+
+The dataset:
+
+'data/'
+
+
+
+Platform: MATLAB R2022a
+
+The slurm script should be written as:
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem-per-cpu=3700
+#SBATCH --time=48:00:00
+
+module load MATLAB/2022a
+
+cd 'working directory'
+matlab -nodisplay -nosplash -nodesktop -r 'cd("working directory");run("do_1.m")'
+
+The working directory refers to the absolute path of the directory where do_1.m is located.
+
+
+Please remember: the training is platform-related.

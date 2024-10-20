@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+4926 200 1658 
+358 2481 489 
+2803 215 3382 
+Train Accuracy: 65.34%
+Train MCC: 0.46
+Test Confusion Matrix:
+37 0 16 
+2 20 4 
+33 4 13 
+Test Accuracy: 54.26%
+Test MCC: 0.29

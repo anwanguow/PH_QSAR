@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6574 2 208 
+246 2975 107 
+69 0 6331 
+Train Accuracy: 96.17%
+Train MCC: 0.85
+Test Confusion Matrix:
+53 0 0 
+0 26 0 
+1 0 49 
+Test Accuracy: 99.22%
+Test MCC: 0.90

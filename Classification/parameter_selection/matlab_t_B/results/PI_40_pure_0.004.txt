@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6251 378 155 
+1354 1911 63 
+118 2 6280 
+Train Accuracy: 87.46%
+Train MCC: 0.81
+Test Confusion Matrix:
+48 5 0 
+5 21 0 
+4 0 46 
+Test Accuracy: 89.15%
+Test MCC: 0.83

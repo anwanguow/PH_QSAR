@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6531 105 148 
+380 2841 107 
+266 0 6134 
+Train Accuracy: 93.91%
+Train MCC: 0.90
+Test Confusion Matrix:
+52 1 0 
+0 26 0 
+6 0 44 
+Test Accuracy: 94.57%
+Test MCC: 0.92

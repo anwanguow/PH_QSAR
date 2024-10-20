@@ -1,0 +1,61 @@
+README
+
+The codes for machine learning using three different feature engineerings:
+
+'do_1.m'   The descriptive statistics for Betti numbers and barcodes
+'do_2.m'   PI of pure structure
+'do_3.m'   The degree distribution of graph (1-dimensional VR complex)
+'do_4.m'   The spectral information of graph (1-dimensional VR complex)
+
+The codes for training with the optimal models
+
+'training_1.m'   The descriptive statistics for Betti numbers and barcodes
+'training_2.m'   PI of pure structure
+'training_3.m'   The degree distribution of graph (1-dimensional VR complex)
+'training_4.m'   The spectral information of graph (1-dimensional VR complex)
+
+
+The menu for saving the machine leaning results:
+
+'results/'
+
+
+The code for PCA:
+
+pca_.m
+
+
+The menu for saving the hyperparameter settings of optimal models:
+
+'models/'
+
+
+The original dataset:
+
+'data/'
+
+
+The dataset after PCA:
+
+'data_pca/'
+
+
+Platform: MATLAB R2022a
+
+The slurm script should be written as:
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem-per-cpu=3700
+#SBATCH --time=48:00:00
+
+module load MATLAB/2022a
+
+cd 'working directory'
+matlab -nodisplay -nosplash -nodesktop -r 'cd("working directory");run("do_1.m")'
+
+The working directory refers to the absolute path of the directory where do_1.m is located.
+
+
+Please remember: the training is platform-related.
+

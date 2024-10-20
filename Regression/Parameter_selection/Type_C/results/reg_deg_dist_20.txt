@@ -1,0 +1,4 @@
+Train MSE: 0.0136
+Train PCC: 0.8425
+Test MSE: 0.0175
+Test PCC: 0.7916

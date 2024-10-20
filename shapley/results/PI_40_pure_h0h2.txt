@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6572 63 149 
+475 1567 1286 
+458 597 5345 
+Train Accuracy: 81.66%
+Train MCC: 0.62
+Test Confusion Matrix:
+51 1 1 
+5 11 10 
+6 7 37 
+Test Accuracy: 76.74%
+Test MCC: 0.55

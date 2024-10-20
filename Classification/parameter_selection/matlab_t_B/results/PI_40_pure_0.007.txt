@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6014 33 737 
+53 3241 34 
+889 0 5511 
+Train Accuracy: 89.43%
+Train MCC: 0.83
+Test Confusion Matrix:
+53 0 0 
+0 26 0 
+15 0 35 
+Test Accuracy: 88.37%
+Test MCC: 0.84

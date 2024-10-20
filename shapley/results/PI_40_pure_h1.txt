@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6724 1 59 
+371 2883 74 
+79 2 6319 
+Train Accuracy: 96.45%
+Train MCC: 0.85
+Test Confusion Matrix:
+53 0 0 
+2 24 0 
+2 0 48 
+Test Accuracy: 96.90%
+Test MCC: 0.86

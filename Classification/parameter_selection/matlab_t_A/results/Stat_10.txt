@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6427 72 285 
+814 350 2164 
+439 123 5838 
+Train Accuracy: 76.40%
+Train MCC: 0.64
+Test Confusion Matrix:
+51 1 1 
+6 2 18 
+3 0 47 
+Test Accuracy: 77.52%
+Test MCC: 0.66

@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6742 0 42 
+322 2750 256 
+402 1 5997 
+Train Accuracy: 93.80%
+Train MCC: 0.90
+Test Confusion Matrix:
+53 0 0 
+0 26 0 
+9 0 41 
+Test Accuracy: 93.02%
+Test MCC: 0.90

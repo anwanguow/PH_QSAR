@@ -1,0 +1,12 @@
+Train Confusion Matrix:
+6607 6 171 
+71 3236 21 
+904 12 5484 
+Train Accuracy: 92.82%
+Train MCC: 0.89
+Test Confusion Matrix:
+53 0 0 
+0 26 0 
+16 0 34 
+Test Accuracy: 87.60%
+Test MCC: 0.83
