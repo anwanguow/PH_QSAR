@@ -1,7 +1,7 @@
-Persistent Homology to Predict the Physical Stability of Amorphous Drugs
+Using Persistent Homology to Predict the Physical Stability of Amorphous Drugs to Near-perfect Accuracy
 ==============
 
-This is the code for paper Predictions of Glass-Forming Ability and Crystallization Tendency, contaning the calculated results corresponding to the figures in the paper and the Python code to show them.
+This is the code for paper Using Persistent Homology to Predict the Physical Stability of Amorphous Drugs to Near-perfect Accuracy, contaning the calculated results corresponding to the figures in the paper and the Python code to show them.
 
 About PCA
 -----------------
